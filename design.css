@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://hdqwalls.com/wallpapers/abstract-blockchain-2t.jpg);
+    overflow: hidden;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box {
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.hours,
+.minutes,
+.seconds,
+.amorpm {
+    width: 10em;
+    height: 10em;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px);
+}
+
+#hours,
+#minutes,
+#seconds,
+#amorpm {
+    font-size: 5em;
+    color: white;
+}
+
+.box>h1 {
+    font-size: 2em;
+    color: white;
+}
